@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Web Book</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+    <style>
+    * { margin: 0;padding: 0; }
+    body, html { width: 100%; height: 100%;}
+    ul { list-style: none; }
+    a{ text-decoration: none; }
+    body { font-family: 'Noto Sans KR', sans-serif; }
+    .title{ color:darkgrey; text-indent: 60px; padding-top: 36px; 
+        display:none; }
+    .page { width: 100%; height: 100%; background-size:cover; 
+        background-size: 60% 80%;
+        background-repeat: no-repeat; background-position: center center;
+        }
+        #page1 {background-image: url("./image/intro.png")}
+        #page2 {background-image: url("./image/%EA%B9%80%EB%AF%B8%EC%98%812.png")}
+        #page3 {background-image: url("./image/%EA%B9%80%EB%AF%B8%EC%98%813.png")}
+        #page4 {background-image: url("./image/%EA%B9%80%EB%AF%B8%EC%98%814.png")}
+        #page5 {background-image: url("./image/%EA%B9%80%EB%AF%B8%EC%98%815.png")}
+        #page6 {background-image: url("./image/%EA%B9%80%EB%AF%B8%EC%98%816.png")}
+        
+    </style>
+    
+</head>
+<body>
+    <div class="page" id="page1">
+        <h1 class="title">Intro</h1>
+    </div>
+    <div class="page" id="page2">
+        <h1 class="title">이력서</h1>
+    </div>
+    <div class="page" id="page3">
+        <h1 class="title">캐릭터</h1>
+    </div>
+    <div class="page" id="page4">
+        <h1 class="title">이모티콘</h1>
+    </div>
+    <div class="page" id="page5">
+        <h1 class="title">인포그래픽</h1>
+    </div>
+    <div class="page" id="page6">
+        <h1 class="title">CI/BI</h1>
+    </div>
+    <div class="page" id="page7">
+        <h1 class="title">웹북</h1>
+        <iframe src="webbook.html" frameborder="0"
+        width="100%" height="100%" allowfullscreen
+        scrolling="no"></iframe>
+    </div>
+    <script src="jquery-latest.js"></script>
+    <script src="par.js"></script>
+</body>
+</html>
